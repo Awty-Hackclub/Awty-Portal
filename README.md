@@ -9,6 +9,10 @@ A social media app inspired by Twitter.
   - Docker
   - Docker-Compose
   - Bash
+  
+### Frontend
+  
+  - VueJS
 
 ### Backend
 
