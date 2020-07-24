@@ -1,6 +1,6 @@
 # Awty-Portal
 
-A social media application based off of Twitter.
+A social media app inspired by Twitter.
 
 ## Tech Stack
 
