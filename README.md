@@ -11,3 +11,4 @@ A social media app inspired by Twitter.
   - Sqlalchemy (with some plain SQL)
   - MySQL
   - Redis
+  - REST
