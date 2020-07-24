@@ -4,6 +4,11 @@ A social media app inspired by Twitter.
 
 ## Tech Stack
 
+### DevOps 
+
+  - Docker
+  - Docker-Compose
+
 ### Backend
 
   - Python
