@@ -10,3 +10,4 @@ A social media application based off of Twitter.
   - Flask
   - Sqlalchemy (with some plain SQL)
   - MySQL
+  - Redis
