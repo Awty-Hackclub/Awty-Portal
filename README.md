@@ -17,3 +17,4 @@ A social media app inspired by Twitter.
   - MySQL
   - Redis
   - REST
+  - JWT auth
