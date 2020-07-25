@@ -10,12 +10,14 @@ A social media app inspired by Twitter.
   - User authentication
   - Ability to post
   - Ability to comment on posts
+  - Post likes
 
 ### Eventual functionality
 
   - Direct messages
   - Media uploading (images and videos)
   - Reposting (equivalent to retweets)
+  - Comment likes
 
 ## Tech Stack
 
