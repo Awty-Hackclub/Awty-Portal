@@ -4,10 +4,16 @@ A social media app inspired by Twitter.
 
 ## Functionality
 
+### MVP functionality
+
   - User accounts
   - User authentication
   - Ability to post
   - Ability to comment on posts
+
+### Eventual functionality
+
+
 
 ## Tech Stack
 
