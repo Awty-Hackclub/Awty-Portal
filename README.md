@@ -13,6 +13,9 @@ A social media app inspired by Twitter.
 ### Frontend
   
   - VueJS
+  - VueX
+  - (possible nuxtjs)
+  - Tailwindcss
 
 ### Backend
 
