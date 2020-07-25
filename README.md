@@ -40,6 +40,7 @@ A social media app inspired by Twitter.
   - VueX
   - (possible nuxtjs)
   - Tailwindcss
+  - Vue Native (eventually)
 
 ### Backend
 
