@@ -50,4 +50,3 @@ A social media app inspired by Twitter.
   - REST
   - UUID
   - Potential OAUTH if we implement 3rd party integration
-
