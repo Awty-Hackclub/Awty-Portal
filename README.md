@@ -23,6 +23,7 @@ A social media app inspired by Twitter.
   - tagging functionality (@ and hashtags)
   - Recommendation system powered by ML
   - "Trending" recommendations
+  - Livestreaming? There is potential for this but it will require a lot of architectural accomodation.
 
 ## Tech Stack
 
