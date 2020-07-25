@@ -13,6 +13,8 @@ A social media app inspired by Twitter.
 
 ### Eventual functionality
 
+  - Direct messages
+  - Media uploading (images and videos)
 
 
 ## Tech Stack
