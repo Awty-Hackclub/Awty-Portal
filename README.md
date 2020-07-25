@@ -12,6 +12,7 @@ A social media app inspired by Twitter.
   - Ability to comment on posts
   - Post likes
   - Notification system
+  - Following users
 
 ### Eventual functionality
 
