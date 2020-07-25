@@ -22,6 +22,7 @@ A social media app inspired by Twitter.
   - Mobile (via vue native) and desktop version (via electronjs)
   - tagging functionality (@ and hashtags)
   - Recommendation system powered by ML
+  - "Trending" recommendations
 
 ## Tech Stack
 
