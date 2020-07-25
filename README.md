@@ -48,4 +48,6 @@ A social media app inspired by Twitter.
   - MySQL
   - Redis
   - REST
+  - UUID
+  - Potential OAUTH if we implement 3rd party integration
 
