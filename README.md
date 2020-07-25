@@ -6,6 +6,8 @@ A social media app inspired by Twitter.
 
   - User accounts
   - User authentication
+  - Ability to post
+  - Ability to comment on posts
 
 ## Tech Stack
 
