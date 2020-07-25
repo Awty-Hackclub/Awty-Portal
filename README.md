@@ -51,3 +51,5 @@ A social media app inspired by Twitter.
   - REST
   - UUID
   - Potential OAUTH if we implement 3rd party integration
+  - Websocket/SocketIO (when we implement the chat)
+  - RabbitMQ (or any pub/sub system) (when we implement notifications)
