@@ -2,6 +2,11 @@
 
 A social media app inspired by Twitter.
 
+## Functionality
+
+  - User accounts
+  - User authentication
+
 ## Tech Stack
 
 ### DevOps 
@@ -25,3 +30,4 @@ A social media app inspired by Twitter.
   - MySQL
   - Redis
   - REST
+
