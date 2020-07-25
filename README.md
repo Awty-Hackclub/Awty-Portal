@@ -20,6 +20,7 @@ A social media app inspired by Twitter.
   - Reposting (equivalent to retweets)
   - Comment likes
   - Mobile (via vue native) and desktop version (via electronjs)
+  - tagging functionality (@ and hashtags) 
 
 ## Tech Stack
 
