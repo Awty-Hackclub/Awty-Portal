@@ -15,7 +15,7 @@ A social media app inspired by Twitter.
 
   - Direct messages
   - Media uploading (images and videos)
-
+  - Reposting (equivalent to retweets)
 
 ## Tech Stack
 
