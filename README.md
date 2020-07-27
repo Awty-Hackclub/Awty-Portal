@@ -50,7 +50,7 @@ A social media app inspired by Twitter.
   - Flask
   - Sqlalchemy (with some plain SQL)
   - MySQL
-  - Redis
+  - JWT auth
   - REST
   - UUID
   - Potential OAUTH if we implement 3rd party integration
