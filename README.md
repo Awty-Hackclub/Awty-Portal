@@ -7,7 +7,7 @@ A social media app inspired by Twitter.
 ### MVP functionality
 
   - User accounts
-  - User authentication
+  - User authentication (with JWT)
   - Ability to post
   - Ability to comment on posts
   - Post likes
@@ -25,6 +25,7 @@ A social media app inspired by Twitter.
   - Recommendation system powered by ML
   - "Trending" recommendations
   - Livestreaming? There is potential for this but it will require a lot of architectural accomodation.
+  - Mobile port
 
 ## Tech Stack
 
