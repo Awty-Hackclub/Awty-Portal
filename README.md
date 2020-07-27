@@ -56,3 +56,4 @@ A social media app inspired by Twitter.
   - Potential OAUTH if we implement 3rd party integration
   - Websocket/SocketIO (when we implement the chat)
   - Cookies (for auth; may rearchitect it though)
+  - RabbitMQ (potential)
