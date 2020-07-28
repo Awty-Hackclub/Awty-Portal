@@ -58,3 +58,4 @@ A social media app inspired by Twitter.
   - Websocket/SocketIO (when we implement the chat)
   - Cookies (for auth; may rearchitect it though)
   - RabbitMQ (potential)
+  - Poetry (for python dep management)
