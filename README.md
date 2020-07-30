@@ -50,7 +50,7 @@ A social media app inspired by Twitter.
 
 - Python
 - Flask
-- Sqlalchemy (with some plain SQL)
+- SqlAlchemy (with some plain SQL)
 - MySQL
 - JWT auth
 - REST
