@@ -1,0 +1,17 @@
+version: '3'
+
+services: 
+
+    vue:
+        ports:
+            - 3000:3000
+        build: 
+            context: ./frontend
+            dockerfile: Dockerfile
+        volumes: 
+            - ./frontend:/app
+            - /app/node_modules
+        networks: 
+            - fullstack
+
+    
