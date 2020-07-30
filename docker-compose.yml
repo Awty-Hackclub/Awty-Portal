@@ -22,6 +22,8 @@ services:
             dockerfile: Dockerfile
         volumes:
             -  ./backend:/src
+        networks: 
+            - fullstack
 
 networks: 
     fullstack:
