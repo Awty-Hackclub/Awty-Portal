@@ -60,3 +60,7 @@ A social media app inspired by Twitter.
 - Websocket/SocketIO (when we implement the chat)
 - Cookies (for auth; may rearchitect it though)
 - RabbitMQ (potential)
+
+## How to run the app
+
+### `sudo docker-compose up`
