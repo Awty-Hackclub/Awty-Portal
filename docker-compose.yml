@@ -13,6 +13,15 @@ services:
             - /app/node_modules
         networks: 
             - fullstack
+    
+    flask:
+        ports:
+            - 5000:5000
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        volumes:
+            -  ./backend:/src
 
 networks: 
     fullstack:
