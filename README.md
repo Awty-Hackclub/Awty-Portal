@@ -27,6 +27,7 @@ A social media app inspired by Twitter.
 - Livestreaming? There is potential for this but it will require a lot of architectural accomodation.
 - Mobile port
 - Editing posts/comments
+- Changing site theme?
 
 ## Tech Stack
 
