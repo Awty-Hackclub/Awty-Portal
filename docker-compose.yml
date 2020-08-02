@@ -25,18 +25,18 @@ services:
         networks: 
             - fullstack
     
-    mysql-container:
-        image: mysql
-        container_name: mysql_container
-        ports:
-            - 3306:3306
-        volumes: 
-            - database_mysql:/var/lib/mysql
-        networks: 
-            - fullstack
+#     mysql-container:
+#         image: mysql
+#         container_name: mysql_container
+#         ports:
+#             - 3306:3306
+#         volumes: 
+#             - database_mysql:/var/lib/mysql
+#         networks: 
+#             - fullstack
 
-volumes: 
-    database_mysql:
+# volumes: 
+#     database_mysql:
 
 networks: 
     fullstack:
