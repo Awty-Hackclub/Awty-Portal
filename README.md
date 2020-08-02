@@ -61,7 +61,7 @@ A social media app inspired by Twitter.
 - UUID
 - Websocket/SocketIO (when we implement the chat)
 - Cookies (for auth; may rearchitect it though)
-- RabbitMQ (potential)
+- RabbitMQ (eventual for notifications, webhooks, etc)
 
 ## How to run the app
 
