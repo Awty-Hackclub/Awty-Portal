@@ -31,6 +31,9 @@ services:
     
     mysql-container:
         image: mysql
+        environment: 
+            MYSQL_ROOT_PASSWORD: root 
+            MYSQL_DATABASE: Awty_Portal 
         container_name: mysql_container
         ports:
             - 6000:6000
