@@ -39,7 +39,7 @@ A social media app inspired by Twitter.
 - Potential Docker-Swarm if we deploy
 
 ### Frontend
-  
+
 - VueJS
 - VueX
 - (possible nuxtjs)
@@ -62,4 +62,5 @@ A social media app inspired by Twitter.
 
 ## How to run the app
 
-### `sudo docker-compose up`
+`./run.sh` _for linux users_
+_windows TBD_ (most people implementing this app on windows will be on WSL so it shouldn't be a problem)
