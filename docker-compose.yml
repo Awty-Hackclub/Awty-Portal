@@ -33,7 +33,7 @@ services:
         image: mysql
         container_name: mysql_container
         ports:
-            - 3306:3306
+            - 6000:6000
         volumes: 
             - database_mysql:/var/lib/mysql
         networks: 
