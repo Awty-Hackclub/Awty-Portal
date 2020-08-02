@@ -4,6 +4,10 @@ A social media app inspired by Twitter.
 
 ## Functionality
 
+### Currently implemented functionality
+
+- None
+
 ### MVP functionality
 
 - User accounts
