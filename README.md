@@ -45,21 +45,20 @@ A social media app inspired by Twitter.
 ### Frontend
 
 - VueJS
-- VueX
-- (possible nuxtjs)
-- Vue Native (eventually)
+- VueX (potential)
+- NuxtJS (potential) 
+- Vue Native (eventually/potential)
 - Figma (for UI/UX prototypes)
 
 ### Backend
 
 - Python
 - Flask
-- SqlAlchemy (with some plain SQL)
+- SqlAlchemy (potential); may just use hardcoded queries
 - MySQL
 - JWT auth
 - REST
 - UUID
-- Potential OAUTH if we implement 3rd party integration
 - Websocket/SocketIO (when we implement the chat)
 - Cookies (for auth; may rearchitect it though)
 - RabbitMQ (potential)
