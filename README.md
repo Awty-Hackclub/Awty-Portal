@@ -62,5 +62,5 @@ A social media app inspired by Twitter.
 
 ## How to run the app
 
-`./run.sh` _for linux users_
-_windows TBD_ (most people implementing this app on windows will be on WSL so it shouldn't be a problem)
+- `./run.sh` *for linux users*
+- *windows TBD* (most people implementing this app on windows will be on WSL so it shouldn't be a problem)
