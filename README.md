@@ -40,7 +40,7 @@ A social media app inspired by Twitter.
 - Docker
 - Docker-Compose
 - Bash
-- Potential Docker-Swarm if we deploy
+- Docker-Swarm if we deploy (potential)
 
 ### Frontend
 
