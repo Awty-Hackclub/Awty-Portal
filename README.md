@@ -44,10 +44,9 @@ A social media app inspired by Twitter.
 
 ### Frontend
 
-- VueJS
-- VueX (potential)
-- NuxtJS (potential) 
-- Vue Native (eventually/potential)
+- ReactJS 
+- Redux (potential)
+- React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
 
 ### Backend
