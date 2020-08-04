@@ -38,7 +38,7 @@ services:
         ports:
             - 6000:6000
         volumes: 
-            - database_mysql:/var/lib/mysql
+            -  ./backend:/src/db.sql
         networks: 
             - fullstack
 
