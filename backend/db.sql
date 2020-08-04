@@ -9,3 +9,10 @@ CREATE TABLE User (
     description TEXT,
     UNIQUE KEY (username)
 );
+
+CREATE TABLE Post (
+    post_uuid VARCHAR(36) PRIMARY KEY,
+    post_creator VARCHAR(36) NOT NULL,
+    post_content VARCHAR(280) NOT NULL,
+    FOREIGN KEY (post_creator) REFERENCES User(uuid) ON DELETE CASCADE
+);
