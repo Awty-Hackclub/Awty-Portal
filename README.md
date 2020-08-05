@@ -46,7 +46,7 @@ A social media app inspired by Twitter.
 ### Frontend
 
 - ReactJS 
-- Redux (potential)
+- Redux/React-Query (potential)
 - React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
 
