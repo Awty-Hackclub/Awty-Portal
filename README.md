@@ -33,6 +33,7 @@ A social media app inspired by Twitter.
 - Editing posts/comments
 - Changing site theme?
 - Profile picture
+- Implement ability to fully navigate with keyboard
 
 ## Tech Stack
 
