@@ -13,13 +13,13 @@ A social media app inspired by Twitter.
 - User accounts
 - User authentication (with JWT)
 - Ability to post
-- Ability to comment on posts
-- Post likes
-- Notification system
-- Following users
 
 ### Eventual functionality
 
+- Following users
+- Post likes
+- Notification system
+- Ability to comment on posts
 - Direct messages
 - Media uploading (images and videos)
 - Reposting (equivalent to retweets)
