@@ -24,7 +24,7 @@ A social media app inspired by Twitter.
 - Media uploading (images and videos)
 - Reposting (equivalent to retweets)
 - Comment likes
-- Mobile (via vue native) and desktop version (via electronjs)
+- Mobile (via react native) and desktop version (via electronjs)
 - tagging functionality (@ and hashtags)
 - Recommendation system powered by ML
 - "Trending" recommendations
@@ -50,6 +50,7 @@ A social media app inspired by Twitter.
 - Redux/React-Query (potential)
 - React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
+- Chakra UI 
 
 ### Backend
 
