@@ -32,6 +32,7 @@ A social media app inspired by Twitter.
 - Mobile port
 - Editing posts/comments
 - Changing site theme?
+- Profile picture
 
 ## Tech Stack
 
