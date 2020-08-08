@@ -38,3 +38,13 @@ func Open() {
 		panic(err)
 	}
 }
+
+// SelectUsers gets all users
+func SelectUsers(user *User) error {
+	return DB.Get(user, "SELECT uuid, username, email, description FROM User")
+}
+
+// SelectUserByUUID gets a user by their UUID
+func SelectUserByUUID(uuid uuid.UUID, user *User) error {
+	return DB.Get(user, "SELECT uuid, username, email, description FROM User where uuid = ?", uuid)
+}
