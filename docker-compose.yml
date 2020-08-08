@@ -14,9 +14,9 @@ services:
         networks: 
             - fullstack
         depends_on: 
-            - flask
+            - go 
     
-    flask:
+    go:
         ports:
             - 5000:5000
         build:
