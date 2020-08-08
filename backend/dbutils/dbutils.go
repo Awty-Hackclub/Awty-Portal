@@ -1,6 +1,8 @@
 package dbutils
 
 import (
+	"time"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 	uuid "github.com/satori/go.uuid"
@@ -19,6 +21,14 @@ type User struct {
 	Email       string    `db:"email" json:"email"`
 	Password    string    `db:"password" json:"password"`
 	Description string    `db:"description" json:"description"`
+}
+
+// Post is a Post table abstraction struct
+type Post struct {
+	PostUUID    uuid.UUID `db:"post_uuid" json:"post_uuid"`
+	PostCreator uuid.UUID `db:"post_creator" json:"post_creator"`
+	PostContent string    `db:"post_content" json:"post_content"`
+	Time        time.Time `db:"time" json:"time"`
 }
 
 // Open opens the DB
