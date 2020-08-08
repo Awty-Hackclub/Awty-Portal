@@ -1,21 +1,23 @@
 package main
 
 import (
+	"Awty-Portal/backend/handler"
+	"Awty-Portal/backend/dbutils"
 	"github.com/gin-gonic/gin"
 )
 
+func init() {
+	dbutils.Open()
+}
+
 func main() {
 	r := gin.Default()
-	r.GET("/users", func(c *gin.Context) {
+	r.GET("/users", handler.Users)
 
-	})
-	r.GET("/user", func(c *gin.Context) {
+	r.GET("/user", handler.User)
 
-	})
-	r.GET("/posts", func(c *gin.Context) {
+	r.GET("/posts", handler.Posts)
 
-	})
-	r.GET("/post", func(c *gin.Context) {
-
-	})
+	r.GET("/post", handler.Post)
+	r.Run()
 }
