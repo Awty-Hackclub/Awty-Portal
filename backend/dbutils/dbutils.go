@@ -46,10 +46,15 @@ func SelectUsers(user *User) error {
 
 // SelectUserByUUID gets a user by their UUID
 func SelectUserByUUID(uuid uuid.UUID, user *User) error {
-	return DB.Get(user, "SELECT uuid, username, email, description FROM User where uuid = ?", uuid)
+	return DB.Get(user, "SELECT uuid, username, email, description FROM User WHERE uuid = ?", uuid)
 }
 
 // SelectPosts selects all posts
 func SelectPosts(post *Post) error {
 	return DB.Get(post, "SELECT * FROM Post")
+}
+
+// SelectPostsByUUID selects all posts by their UUID
+func SelectPostsByUUID(uuid uuid.UUID, post *Post) error {
+	return DB.Get(post, "SELECT * FROM Post WHERE post_uuid = ?", uuid)
 }
