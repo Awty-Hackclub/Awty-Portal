@@ -3,6 +3,7 @@ package dbutils
 import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
+	uuid "github.com/satori/go.uuid"
 )
 
 var (
@@ -10,6 +11,15 @@ var (
 	DB  *sqlx.DB
 	err error
 )
+
+// User is a User table abstraction struct
+type User struct {
+	UUID        uuid.UUID `db:"uuid" json:"uuid"`
+	Username    string    `db:"username" json:"username"`
+	Email       string    `db:"email" json:"email"`
+	Password    string    `db:"password" json:"password"`
+	Description string    `db:"description" json:"description"`
+}
 
 // Open opens the DB
 func Open() {
