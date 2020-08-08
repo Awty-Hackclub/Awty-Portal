@@ -1,12 +1,11 @@
-FROM python:3.8
+FROM golang:1.13 
 
 WORKDIR /src
 
-COPY ./requirements.txt .
-
-RUN pip3 install -r requirements.txt
-
 COPY . . 
+
+RUN go mod tidy
+RUN go mod download
 
 EXPOSE 5000
 
