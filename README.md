@@ -56,9 +56,9 @@ A social media app inspired by Twitter.
 
 ### Backend
 
-- Python
-- Flask
-- SqlAlchemy (potential); may just use hardcoded queries
+- Go 
+- Gin 
+- SqlX 
 - MySQL
 - JWT auth
 - REST
