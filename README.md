@@ -13,6 +13,7 @@ A social media app inspired by Twitter.
 - User accounts
 - User authentication (with JWT)
 - Ability to post
+- Search? (maybe)
 
 ### Eventual functionality
 
