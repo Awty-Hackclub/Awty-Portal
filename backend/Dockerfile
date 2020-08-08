@@ -9,5 +9,5 @@ RUN go mod download
 
 EXPOSE 5000
 
-CMD python3 main.py
+CMD go run main.go
 
