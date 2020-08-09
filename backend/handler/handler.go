@@ -16,7 +16,14 @@ func Users(c *gin.Context) {
 
 // User returns a json result of a User's data (with desired UUID)
 func User(c *gin.Context) {
-
+	uuidArg := c.Query("uuid")
+	user := dbutils.User{}
+	conversion, err := uuid.FromString(uuidArg)
+	if err != nil {
+		panic(err)
+	}
+	dbutils.SelectUserByUUID(conversion, &user)
+	c.JSON(200, user)
 }
 
 // Posts returns a json result of all the posts in the Post table
@@ -28,11 +35,12 @@ func Posts(c *gin.Context) {
 
 // Post returns a json result of a post by post_uuid
 func Post(c *gin.Context) {
-	uuidArg := c.Query("uuid")
+	uuidArg := c.Query("post_uuid")
 	post := dbutils.Post{}
 	conversion, err := uuid.FromString(uuidArg)
 	if err != nil {
 		panic(err)
 	}
 	dbutils.SelectPostsByUUID(conversion, &post)
+	c.JSON(200, post)
 }
