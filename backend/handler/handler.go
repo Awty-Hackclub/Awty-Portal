@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"Awty-Portal/backend/dbutils"
 	"github.com/gin-gonic/gin"
 )
 

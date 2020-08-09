@@ -40,8 +40,8 @@ func Open() {
 }
 
 // SelectUsers gets all users
-func SelectUsers(user *User) error {
-	return DB.Get(user, "SELECT uuid, username, email, description FROM User")
+func SelectUsers(user *[]User) {
+	DB.Select(&user, "SELECT uuid, username, email, description FROM User")
 }
 
 // SelectUserByUUID gets a user by their UUID
@@ -50,8 +50,8 @@ func SelectUserByUUID(uuid uuid.UUID, user *User) error {
 }
 
 // SelectPosts selects all posts
-func SelectPosts(post *Post) error {
-	return DB.Get(post, "SELECT * FROM Post")
+func SelectPosts(post *[]Post) {
+	DB.Select(&post, "SELECT * FROM Post")
 }
 
 // SelectPostsByUUID selects all posts by their UUID
