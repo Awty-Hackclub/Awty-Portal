@@ -9,6 +9,7 @@ import (
 func Users(c *gin.Context) {
 	users := []dbutils.User{}
 	dbutils.SelectUsers(users)
+	c.JSON(200, users)
 }
 
 // User returns a json result of a User's data (with desired UUID)
