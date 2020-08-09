@@ -2,7 +2,7 @@ FROM golang:1.13
 
 WORKDIR /src
 
-COPY . . 
+COPY . ./ 
 
 RUN go mod tidy
 RUN go mod download
