@@ -49,10 +49,10 @@ A social media app inspired by Twitter.
 ### Frontend
 
 - ReactJS 
-- Redux/React-Query (potential)
+- Redux
 - React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
-- Chakra UI 
+- Chakra UI
 - MomentJS
 
 ### Backend
