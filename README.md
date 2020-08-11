@@ -72,7 +72,3 @@ A social media app inspired by Twitter.
 
 - `./run.sh` *for linux users*
 - *windows TBD* (most people implementing this app on windows will be on WSL so it shouldn't be a problem)
-
-## UI prototypes
-
-### [Landing Page](frontend/prototypes/landing_page.PNG)
