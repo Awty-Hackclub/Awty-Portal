@@ -58,9 +58,9 @@ A social media app inspired by Twitter.
 
 ### Backend
 
-- Go 
-- Gin 
-- SqlX 
+- Go
+- Gin
+- SqlX
 - MySQL
 - JWT auth
 - REST
