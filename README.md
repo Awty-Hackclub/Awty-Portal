@@ -54,6 +54,7 @@ A social media app inspired by Twitter.
 - Figma (for UI/UX prototypes)
 - Chakra UI
 - MomentJS
+- Axios
 
 ### Backend
 
