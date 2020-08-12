@@ -15,6 +15,7 @@ services:
             - fullstack
         depends_on: 
             - go 
+        tty: true
     
     go:
         ports:
