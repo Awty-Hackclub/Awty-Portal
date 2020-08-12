@@ -1,2 +1,1 @@
-sudo docker-compose build
-sudo docker-compose up
+sudo docker-compose -f docker-compose.yml up
