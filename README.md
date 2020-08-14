@@ -52,7 +52,7 @@ A social media app inspired by Twitter.
 - Redux
 - React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
-- Chakra UI
+- Scss
 - MomentJS
 - Axios
 
