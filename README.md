@@ -55,6 +55,7 @@ A social media app inspired by Twitter.
 - Scss
 - MomentJS
 - Axios
+- HTTP-only cookies
 
 ### Backend
 
