@@ -15,10 +15,11 @@ services:
             - fullstack
         depends_on: 
             - go 
+        tty: true
     
     go:
         ports:
-            - 5000:5000
+            - 8080:8080
         build:
             context: ./backend
             dockerfile: Dockerfile

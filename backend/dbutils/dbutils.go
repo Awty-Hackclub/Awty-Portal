@@ -33,7 +33,7 @@ type Post struct {
 
 // Open opens the DB
 func Open() {
-	DB, err = sqlx.Connect("mysql", "root:root@tcp(Awty_Portal:6000)")
+	DB, err = sqlx.Connect("mysql", "root:root@tcp(mysql_container)/Awty_Portal")
 	if err != nil {
 		panic(err)
 	}

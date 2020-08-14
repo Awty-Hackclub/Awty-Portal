@@ -1,4 +1,4 @@
-module v2
+module Awty-Portal/backend
 
 go 1.13
 
