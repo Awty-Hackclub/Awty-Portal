@@ -50,6 +50,8 @@ A social media app inspired by Twitter.
 
 - ReactJS 
 - Redux
+- React-Spring
+- React-Icons
 - React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
 - Scss
@@ -61,7 +63,7 @@ A social media app inspired by Twitter.
 
 - Go
 - Gin
-- SqlX
+- Sqlx
 - MySQL
 - JWT auth
 - REST
