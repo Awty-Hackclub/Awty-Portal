@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,MAAM,CAAC;EACH,gBAAgB,ECHA,qBAAqB;EDIrC,KAAK,ECHK,OAAiB;CDI9B",
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,gBAAgB,ECHA,qBAAqB;EDIrC,KAAK,ECHK,OAAiB;CDI9B",
     "sources": [
         "navbar.scss",
         "colors.scss"
