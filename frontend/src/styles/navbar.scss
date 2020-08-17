@@ -1,6 +1,9 @@
 @import 'colors';
 
 .navbar {
+    .nav-header {
+        margin-left: 25px;
+    }
     background-color: $navbar-background;
     color: $navbar-text;
     display: flex;
