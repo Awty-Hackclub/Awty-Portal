@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './../styles/navbar.css'
 //import 'react-icons';
 
 function NavBar() {
     return (
         <div className="navbar">
-            <Link className="nav-header">Awty Portal </Link>
+            <h1 class="nav-header" href="/">Awty Portal </h1>
             <input className="searchBar"></input> 
         </div>
     )
