@@ -13,9 +13,10 @@
 }
 
 .navbar .searchBar {
-  height: 45px;
+  color: white;
+  height: 40px;
   width: 500px;
-  border-radius: 10px;
+  border-radius: 15px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -25,6 +26,6 @@
 }
 
 .navbar .searchBar:hover {
-  outline-color: green;
+  border-color: #50fa7b;
 }
 /*# sourceMappingURL=navbar.css.map */
