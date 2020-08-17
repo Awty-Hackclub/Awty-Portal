@@ -5,4 +5,12 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+.navbar .nav-header {
+  margin-left: 25px;
+}
+
+.navbar .searchBar {
+  margin-left: 600px;
+}
 /*# sourceMappingURL=navbar.css.map */
