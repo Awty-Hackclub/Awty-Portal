@@ -8,7 +8,7 @@
         &:hover {
             border-color: $navbar-text;
         }
-        color:white;
+        color: white;
         height: 40px;
         width: 500px;
         border-radius: 15px;
@@ -17,6 +17,7 @@
         top: 50%;
         transform: translate(-50%, -50%);
         background-color: $navbar-background;
+        border-color: $navbar-background;
     }
     background-color: $navbar-background;
     color: $navbar-text;
