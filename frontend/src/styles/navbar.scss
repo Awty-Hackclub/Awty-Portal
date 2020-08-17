@@ -8,7 +8,8 @@
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
+        background-color: $search-background;
     }
     background-color: $navbar-background;
     color: $navbar-text;
