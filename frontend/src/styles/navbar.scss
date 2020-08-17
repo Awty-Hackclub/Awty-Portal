@@ -5,10 +5,14 @@
         margin-left: 25px;
     }
     .searchBar {
-        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%)
     }
     background-color: $navbar-background;
     color: $navbar-text;
     display: flex;
     border-radius: 10px;
+    position: relative;
 }
