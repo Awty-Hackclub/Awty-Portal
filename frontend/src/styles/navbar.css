@@ -13,10 +13,18 @@
 }
 
 .navbar .searchBar {
+  height: 45px;
+  width: 500px;
+  border-radius: 10px;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  background-color: rgba(32, 33, 36, 0.9);
+}
+
+.navbar .searchBar:hover {
+  outline-color: green;
 }
 /*# sourceMappingURL=navbar.css.map */

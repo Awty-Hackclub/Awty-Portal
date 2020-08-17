@@ -1,6 +1,6 @@
 import React from 'react'
 import './../styles/navbar.css'
-import 'react-icons';
+//import 'react-icons';
 
 function NavBar() {
     return (

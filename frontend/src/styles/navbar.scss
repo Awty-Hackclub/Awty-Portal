@@ -5,11 +5,17 @@
         margin-left: 25px;
     }
     .searchBar {
+        &:hover {
+            outline-color: green;
+        }
+        height: 45px;
+        width: 500px;
+        border-radius: 10px;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        background-color: $search-background;
+        background-color: $navbar-background;
     }
     background-color: $navbar-background;
     color: $navbar-text;
