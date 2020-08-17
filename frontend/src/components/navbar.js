@@ -6,7 +6,7 @@ import './../styles/navbar.css'
 function NavBar() {
     return (
         <div className="navbar">
-            <Link class="nav-header">Awty Portal </Link>
+            <Link className="nav-header">Awty Portal </Link>
             <input className="searchBar"></input> 
         </div>
     )
