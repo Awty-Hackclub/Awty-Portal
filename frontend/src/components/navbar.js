@@ -14,7 +14,12 @@ function NavBar() {
         <div className="navbar">
             <h1 class="nav-header" href="/">Awty Portal </h1>
             <input className="searchBar" onKeyDown={(e) => handleEnter(e)}></input>
-            <button className="home" onClick={() => console.log("home button clicked")} icon="refresh"> </button>
+            <div className="buttons">
+                <button className="home" onClick={() => console.log("home button clicked")}></button>
+                <button className="add" onClick={() => console.log("home button clicked")}></button>
+                <button className="user" onClick={() => console.log("home button clicked")}></button>
+            </div>
+                
         </div>
     )
 }

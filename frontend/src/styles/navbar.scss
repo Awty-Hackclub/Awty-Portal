@@ -1,23 +1,40 @@
 @import 'colors';
 
+@mixin align($where) {
+    position: absolute;
+    left: percentage($where);
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .navbar {
     .nav-header {
         margin-left: 25px;
     }
     .searchBar {
+        @include align(0.5);
         &:hover {
             border-color: $navbar-text;
         }
         color: white;
-        height: 40px;
+        height: 30px;
         width: 500px;
         border-radius: 15px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
         background-color: $navbar-background;
         border-color: $navbar-background;
+    }
+    .buttons {
+        @include align(0.85);
+        
+        .home {      
+            padding: 20px 20px;
+        }
+        .add {      
+            padding: 20px 20px;
+        }
+        .user {
+            padding: 20px 20px;
+        }
     }
     background-color: $navbar-background;
     color: $navbar-text;

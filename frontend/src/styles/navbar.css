@@ -13,20 +13,40 @@
 }
 
 .navbar .searchBar {
-  color: white;
-  height: 40px;
-  width: 500px;
-  border-radius: 15px;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  color: white;
+  height: 30px;
+  width: 500px;
+  border-radius: 15px;
   background-color: rgba(32, 33, 36, 0.9);
   border-color: rgba(32, 33, 36, 0.9);
 }
 
 .navbar .searchBar:hover {
   border-color: #50fa7b;
+}
+
+.navbar .buttons {
+  position: absolute;
+  left: 85%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.navbar .buttons .home {
+  padding: 20px 20px;
+}
+
+.navbar .buttons .add {
+  padding: 20px 20px;
+}
+
+.navbar .buttons .user {
+  padding: 20px 20px;
 }
 /*# sourceMappingURL=navbar.css.map */
