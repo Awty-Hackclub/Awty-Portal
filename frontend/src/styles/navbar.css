@@ -1,5 +1,8 @@
 .navbar {
   background-color: rgba(32, 33, 36, 0.9);
   color: #50fa7b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=navbar.css.map */

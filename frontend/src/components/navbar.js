@@ -3,8 +3,8 @@ import './../styles/navbar.css'
 function NavBar() {
     return (
         <div className="navbar">
-            <h1>Awty Portal</h1>   
-            <input className="form"></input> 
+            <h1>Awty Portal </h1>
+            <input className="searchBar"></input> 
         </div>
     )
 }
