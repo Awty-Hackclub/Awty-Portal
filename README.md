@@ -52,13 +52,13 @@ A social media app inspired by Twitter.
 - Redux
 - React-Spring
 - React-Icons
+- React-Boostrap
 - React Native (eventually/potential)
 - Figma (for UI/UX prototypes)
 - Scss
 - MomentJS
 - Axios
 - HTTP-only cookies
-- Scss/Sass
 
 ### Backend
 
