@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <div className="navbar">
             <h1 class="nav-header" href="/">Awty Portal </h1>
-            <input className="searchBar" onKeyDown={(e) => handleEnter(e)}></input>
+            <input className="searchBar"></input>
             <div className="buttons">
                 <button className="home"></button>
                 <button className="add"></button>
