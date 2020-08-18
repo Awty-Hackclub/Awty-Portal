@@ -1,6 +1,8 @@
 import React from 'react'
+import 'react-bootstrap';
+
 import './../styles/navbar.css'
-//import 'react-icons';
+import { FaBeer } from 'react-icons/fa';
 // Doesn't work ^
 
 function NavBar() {
@@ -13,7 +15,7 @@ function NavBar() {
                 <button className="add"></button>
                 <button className="user"></button>
             </div>
-                
+            <h3> Lets go for a <FaBeer />? </h3>
         </div>
     )
 }
